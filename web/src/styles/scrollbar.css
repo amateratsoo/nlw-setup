@@ -1,0 +1,22 @@
+:root {
+  --dark-900: #09090A;
+  --dark-700: #141414;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+body::-webkit-scrollbar {
+  background-color: var(--dark-900);
+  height: 0.70rem;
+}
+
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--dark-700);
+  border-radius: 9999px;
+}
